@@ -46,3 +46,13 @@ storage/models/
 # Python-generated reports and temporary files
 *.tmp
 *.bak
+
+# Model artifacts and backups
+storage/models/
+storage/models.backup/
+*.joblib
+
+# Local databases
+storage/*.db
+storage/*.sqlite
+storage/*.sqlite3
