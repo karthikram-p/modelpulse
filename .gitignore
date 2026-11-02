@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+logs/
+
+# Local databases
+storage/*.db
+storage/*.sqlite
+storage/*.sqlite3
+
+# Generated datasets and processed data
+storage/raw/
+storage/processed/
+
+# Trained models and generated artifacts
+storage/models/
+
+# Python-generated reports and temporary files
+*.tmp
+*.bak
